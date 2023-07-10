@@ -1,0 +1,9 @@
+Feature selection is the process of selecting a subset of relevant features or variables from a larger set of available features. It is crucial in machine learning because selecting the right features can significantly improve the performance of a model while reducing complexity, training time, and overfitting risks. Here are some commonly used feature selection techniques:
+
+1. Filter Methods: These methods assess the relevance of features based on statistical measures, such as correlation or mutual information. They rank features individually without considering the relationship between them. Common filter methods include Pearson correlation coefficient, chi-square test, and information gain.
+
+2. Wrapper Methods: These methods evaluate feature subsets by training and testing machine learning models. They search for the optimal subset by iteratively selecting features and evaluating the model's performance. Wrapper methods are computationally expensive but can capture feature interactions. Examples include recursive feature elimination (RFE) and forward/backward feature selection.
+
+3. Embedded Methods: These methods incorporate feature selection within the model training process. They automatically select relevant features while building the model. Techniques like Lasso regression and decision tree-based feature importance provide built-in feature selection capabilities.
+
+4. Dimensionality Reduction: This technique reduces the number of features by transforming them into a lower-dimensional space. Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) are commonly used dimensionality reduction techniques.
